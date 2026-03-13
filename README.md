@@ -1,0 +1,1 @@
+A mordern react-based web application that allows a user to track matatus ,view their locations, stages and when it arrives at particular bus stops and monitor routes in real time. this platform helps commuters plan their travels efficiently and save on time 
