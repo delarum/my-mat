@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 /* Navbar */
 
 .navbar {
-  background: #1e293b;
+  background: #311e3b;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -29,8 +29,18 @@ body {
   color: white;
   text-decoration: none;
 }
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #e2e8f0;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
 .footer {
-  background: #1e293b;
+  background: #311e3b;
   color: white;
   text-align: center;
   padding: 20px;

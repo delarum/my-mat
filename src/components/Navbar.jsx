@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2>MatatuTracker</h2>
+      <h2>MY-MAT</h2>
 
       <ul className="nav-links">
         <li><a href="#">Home</a></li>

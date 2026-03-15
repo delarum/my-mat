@@ -1,10 +1,13 @@
 import React from 'react'
-
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Footer from './components/Footer'
 function App() {
   return (
-    <div>
-      <h1 className='tail'>Hello react</h1>
-    </div>
+    <>
+    <Navbar />
+    <Footer />
+    </>
   )
 }
 
