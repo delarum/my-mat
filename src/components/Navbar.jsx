@@ -2,7 +2,16 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav className="navbar">
+      <h2>MatatuTracker</h2>
+
+      <ul className="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Matatus</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   )
 }
 
