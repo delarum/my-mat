@@ -39,6 +39,27 @@ body {
   font-size: 40px;
   margin-bottom: 10px;
 }
+.about {
+  padding: 60px;
+  text-align: center;
+  background: #ffffff;
+}
+.matatu-section {
+  padding: 60px 40px;
+}
+
+.matatu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+}
+
+.matatu-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
 .footer {
   background: #311e3b;
   color: white;

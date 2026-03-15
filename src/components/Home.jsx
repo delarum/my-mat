@@ -1,4 +1,5 @@
 import React from 'react'
+import matatus from '../data/mat'
 
 function Home() {
   return (
@@ -8,7 +9,8 @@ function Home() {
         A modern platform that helps commuters monitor matatus
         passing through their area and plan their journeys better.
       </p>
-    </section>
+      </section>
+       
   )
 }
 
