@@ -16,6 +16,7 @@ function List() {
             matatuName={matatu.matatuName}
             routeNumber={matatu.routeNumber}
             location={matatu.location}
+            timeSpotted={matatu.timeSpotted}
           />
         ))}
       </div>
