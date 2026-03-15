@@ -29,3 +29,9 @@ body {
   color: white;
   text-decoration: none;
 }
+.footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
