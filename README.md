@@ -1,1 +1,1 @@
-A mordern react-based web application that allows a user to track the type of matatus passsing through a particular area. this platform helps commuters plan their travels efficiently and save on time.
+A mordern react-based web application that allows a user to track the type of matatus passsing through a particular area. This platform helps commuters plan their travels efficiently and save on time.

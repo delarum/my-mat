@@ -1,12 +1,29 @@
 import React from 'react'
+import { useState } from 'react'
 import matatus from '../data/mat'
 import Matcard from './Matcard'
 
 function List() {
+    const [search, setSearch] = useState("")
+
+    const filteredMAtatus = matatus.filter((matatu) =>
+    matatu.area.toLowerCase().includes(search.toLowerCase())||
+    matatu.matatuName.toLowerCase().includes(search.toLowerCase()) ||
+    matatu.routeNumber.toLowerCase().includes(search.toLowerCase())
+)
   return (
    <section className="matatu-section">
 
       <h2>Matatus Spotted</h2>
+
+      <input
+        type="text"
+        placeholder="Search by area, route or matatu name..."
+        className="search-bar"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+
 
       <div className="matatu-grid">
         {matatus.map((matatu) => (
